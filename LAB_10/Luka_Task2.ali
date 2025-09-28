@@ -1,0 +1,29 @@
+V "GNAT Lib v10"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+
+U luka_task2%b		Luka_Task2.adb		e7e526a1 NE OO PK
+
+U luka_task2%s		luka_task2.ads		0f28b22d EE NE OO PK
+
+D luka_task2.ads	20250321040427 0f28b22d luka_task2%s
+D Luka_Task2.adb	20250321040427 e8cd948c luka_task2%b
+D system.ads		20230707070819 4635ec04 system%s
+G a e
+G c Z s b [add luka_task2 9 14 none]
+G c Z s b [multiply luka_task2 12 14 none]
+G c Z s s [complexIP luka_task2 3 10 none]
+X 1 luka_task2.ads
+2K9*Luka_Task2 13l5 13e15 2|2b14 22l5 22t15
+3R10*Complex 6e15 9r28 9r44 12r33 12r49 2|5r28 5r44 7r17 14r33 14r49 16r17
+4f9*Real_Part{float} 2|8m13 8r30 8r45 17m13 17r31 17r46 18r31 18r78
+5f9*Imag_Part{float} 2|9m13 9r30 9r45 17r63 17r78 18m13 18r46 18r63
+9V14*Add{3R10} 9>19 9>23 2|5b14 11l9 11t12
+9r19 C1{3R10} 2|5b19 8r27 9r27
+9r23 C2{3R10} 2|5b23 8r42 9r42
+12V14*Multiply{3R10} 12>24 12>28 2|14b14 20l9 20t17
+12r24 C1{3R10} 2|14b24 17r28 17r60 18r28 18r60
+12r28 C2{3R10} 2|14b28 17r43 17r75 18r43 18r75
+

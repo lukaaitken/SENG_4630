@@ -1,0 +1,25 @@
+V "GNAT Lib v10"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV SPARK_05
+
+U luka_task3%b		luka_task3.adb		fcac3b9a NE OO PK
+
+U luka_task3%s		luka_task3.ads		d635504c BN EE NE OO PK
+
+D luka_task3.ads	20250326225853 d635504c luka_task3%s
+D luka_task3.adb	20250326225853 2a996bd6 luka_task3%b
+D system.ads		20230707070819 4635ec04 system%s
+G a e
+X 1 luka_task3.ads
+1K9*Luka_Task3 6l5 6e15 2|2b14 22l5 22t15
+4F12 Float_Type 5r43 2|3r43 5r20 6r20 7r20 10r21 19r12
+5u14*Swap_Float_Parts 5=32 2|3b14 21l8 21t24
+5*32 X{4F12} 2|3b32 10r43 13r20 19m7
+X 2 luka_task3.adb
+5*7 Whole_Part{1|4F12} 10m7 13r24 20r13
+6*7 Frac_Part{1|4F12} 13m7 16r15
+7*7 Temp{1|4F12} 16m7 19r34
+

@@ -1,0 +1,65 @@
+V "GNAT Lib v10"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U luka_task2_main%b	Luka_Task2_Main.adb	933edf84 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W luka_task2%s		luka_task2.adb		luka_task2.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-ioexce.ads		20230707070819 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-textio.ads		20230707070819 aef4d56d ada.text_io%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
+D luka_task2.ads	20250321040427 0f28b22d luka_task2%s
+D Luka_Task2_Main.adb	20250321040427 32e2b8c4 luka_task2_main%b
+D system.ads		20230707070819 4635ec04 system%s
+D s-conca5.ads		20230707070819 875e432e system.concat_5%s
+D s-crtl.ads		20230707070819 0ebbdb71 system.crtl%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-ficobl.ads		20230707070819 078245e4 system.file_control_block%s
+D s-imgrea.ads		20230707070819 c7a851e2 system.img_real%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20230707070819 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [luka_task2_main standard 5 11 none]
+G r c none [luka_task2_main standard 5 11 none] [add luka_task2 9 14 none]
+G r c none [luka_task2_main standard 5 11 none] [multiply luka_task2 12 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|2r6 2r23
+X 6 a-textio.ads
+57K13*Text_IO 727e16 11|2w10 2r27
+508U14*Put_Line 11|16s5 20s5
+X 10 luka_task2.ads
+2K9*Luka_Task2 13e15 11|3w6 3r22
+3R10*Complex 6e15 11|6r18
+4f9*Real_Part{float} 11|9m8 11m8 16r39 20r43
+5f9*Imag_Part{float} 11|10m8 12m8 16r75 20r79
+9V14*Add{3R10} 11|15s11
+12V14*Multiply{3R10} 11|19s11
+X 11 Luka_Task2_Main.adb
+5U11*Luka_Task2_Main 5b11 21l5 21t20
+6r5 C1{10|3R10} 9m5 10m5 15r15 19r20
+6r9 C2{10|3R10} 11m5 12m5 15r19 19r24
+6r13 C3{10|3R10} 15m5 16r36 16r72 19m5 20r40 20r76
+

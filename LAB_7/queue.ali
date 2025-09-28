@@ -1,0 +1,121 @@
+V "GNAT Lib v10"
+P ZX
+
+RN
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U queue%b		queue.adb		243591fb NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W stack%s		stack.adb		stack.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+U queue%s		queue.ads		97e87770 EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W stack%s		stack.adb		stack.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-inteio.ads		20230707070819 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20230707070819 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-textio.ads		20230707070819 aef4d56d ada.text_io%s
+D a-tiinio.ads		20230707070819 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
+D queue.ads		20250305044152 0b13c393 queue%s
+D queue.adb		20250305044152 b3dde68b queue%b
+D stack.ads		20250305044152 c444e82a stack%s
+D system.ads		20230707070819 4635ec04 system%s
+D s-conca2.ads		20230707070819 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20230707070819 0ebbdb71 system.crtl%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-ficobl.ads		20230707070819 078245e4 system.file_control_block%s
+D s-imgint.ads		20230707070819 02dbe0c2 system.img_int%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20230707070819 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [enqueue queue 11 14 none]
+G c Z s b [dequeue queue 12 14 none]
+G c Z s b [first queue 13 13 none]
+G c Z s b [last queue 14 13 none]
+G c Z s b [length queue 15 13 none]
+G c Z s b [is_full queue 16 13 none]
+G c Z s b [clear queue 17 14 none]
+G c Z s b [print_queue queue 18 14 none]
+G c Z s b [reversequeue queue 19 14 none]
+G c Z s s [Tcontent_typeBIP queue 22 4 none]
+G c Z s s [queue_typeIP queue 23 9 none]
+G r s stack_type [reversequeue queue 19 14 none] [stack_typeIP stack 15 9 none]
+G r c none [reversequeue queue 19 14 none] [push stack 9 14 none]
+G r c none [reversequeue queue 19 14 none] [is_empty stack 11 13 none]
+G r c none [reversequeue queue 19 14 none] [pop stack 10 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|4r6 4r23 5r6 5r31 13|3r6 3r23 4r6 4r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 12|5w10 5r35 13|4w10 4r35
+X 7 a-textio.ads
+57K13*Text_IO 727e16 12|4w10 4r27 13|3w10 3r27
+264U14*New_Line 13|81s7
+465U14*Put 13|76s7 78s10
+508U14*Put_Line 13|12s10 23s10 35s10 44s10 72s10
+X 12 queue.ads
+7K9*Queue 22E9 29l5 29e10 13|7b14 99l5 99t10
+8I12*Queue_Index{natural} 22r31 13|11r20 14r32 27r34 57r24 79r22
+9R9*Queue_Type 11r33 12r33 13r23 14r22 15r24 16r25 17r31 18r30 19r37 23c9
+. 28e14 13|9r33 20r33 32r23 41r22 50r24 55r25 60r31 67r30 84r38
+11U14*Enqueue 11=22 11>45 13|9b14 18l8 18t15 95s10
+11r22 Q{9R9} 13|9b22 11r10 14m10 14r21 15m10 15r17 16m10 16r21
+11i45 Val{integer} 13|9b45 15r28
+12U14*Dequeue 12=22 12<45 13|20b14 30l8 30t15 89s10
+12r22 Q{9R9} 13|20b22 22r10 26r17 26r24 27m10 27r22 28m10 28r21
+12i45 Val{integer} 13|20b45 24m10 26m10
+13V13*First{integer} 13>19 13|32b13 39l8 39t13
+13r19 Q{9R9} 13|32b19 34r10 38r14 38r21
+14V13*Last{integer} 14>18 13|41b13 48l8 48t12
+14r18 Q{9R9} 13|41b18 43r10 47r14 47r21
+15V13*Length{integer} 15>20 13|50b13 53l8 53t14
+15r20 Q{9R9} 13|50b20 52r14
+16V13*Is_Full{boolean} 16>21 13|55b13 58l8 58t15
+16r21 Q{9R9} 13|55b21 57r14
+17U14*Clear 17=20 13|60b14 65l8 65t13
+17r20 Q{9R9} 13|60b20 62m7 63m7 64m7
+18U14*Print_Queue 18>26 13|67b14 82l8 82t19
+18r26 Q{9R9} 13|67b26 68r22 69r26 78r28
+19U14*reversequeue 19=27 13|84b14 97l8 97t20
+19r27 Q{9R9} 13|84b27 88r13 89m18 95m18
+22A9 Content_Type(integer)<integer> 24r15
+24a7*Data{22A9} 13|15m12 26r19 38r16 47r16 78r30
+25i7*Front{natural} 13|26r26 27m12 27r24 38r23 62m9 68r24
+26i7*Rear{natural} 13|14m12 14r23 15r19 47r23 63m9
+27i7*Count{natural} 13|11r12 16m12 16r23 22r12 28m12 28r23 34r12 43r12 52r16
+. 57r16 64m9 69r28 88r15
+X 13 queue.adb
+68i7 I{natural} 78r35 79m10 79r16
+69i7 Count{integer} 71r10 77r21
+77i11 J{integer}
+85r7 Stack1{14|7R9} 90m15 90r15 93r26 94m14 94r14
+86i7 Temp{integer} 89m21 90r23 94m22 95r21
+X 14 stack.ads
+6K9*Stack 12|3w6 3r17 13|5w6 5r17 85r16 14|19e10
+7R9*Stack_Type 13|85r22 14|18e14
+9U14*Push 13|90s10
+10U14*Pop 13|94s10
+11V13*Is_Empty{boolean} 13|93s17
+
