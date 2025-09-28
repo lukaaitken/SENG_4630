@@ -1,6 +1,6 @@
-# SENG 4630 – Safety Critical Software Systems
+# Safety Critical Software Systems Labs
 
-This repository contains my labs for **SENG 4630 (Safety Critical Software Systems)**.  
+This repository contains my labs for **(Safety Critical Software Systems)**.  
 The course introduces the development and certification of safety-critical software, with a focus on **Ada programming** for reliable and safe system design.
 
 ---
